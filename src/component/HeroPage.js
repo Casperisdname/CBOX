@@ -91,7 +91,7 @@ const HeroPage = ({ bgImages = [] }) => {
       </div>
 
       {/* Background Layer: Movie Posters from API */}
-      <div className="grid grid-cols-2 md:grid-cols-5 opacity-70 absolute inset-0 transition-all duration-1000">
+      <div className="grid grid-cols-2 md:grid-cols-5 opacity-90 absolute inset-0 transition-all duration-1000">
         {Array(5)
           .fill(0)
           .map((_, index) => {
